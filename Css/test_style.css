@@ -1,0 +1,52 @@
+.section2-main-container {
+  display: flex;
+  justify-content: start;
+  overflow-x: scroll;
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.section2-main-container:-webkit-scrollbar {
+  display: none;
+}
+
+.song-main-card {
+  background-color: #222222;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 15px;
+  padding-bottom: 0;
+  border-radius: 20px;
+}
+
+.song-main-card > * {
+  background-color: inherit; /* Set child elements to inherit the background color */
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+.song-image {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 25vh;
+  min-width: 100%;
+  max-width: 25vw;
+  max-height: 25vh;
+  margin-bottom: 10px;
+}
+.song-main-card h3 {
+  color: white;
+  font-weight: 650;
+  font-size: 1.5rem;
+}
+
+.song-main-card p {
+  font-size: 1rem;
+}
+
+.song-description {
+  color: #717171;
+}
